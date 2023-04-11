@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 16, 2023, 12:03:52 PM
+    Author     : DELL
+*/
+
+html,
+body,
+.intro {
+    height: 100%;
+}
+
+.gradient-custom-1 {
+    background: rgb(102,186,200);
+    background: linear-gradient(48deg, rgba(102,186,200,1) 0%, rgba(42,102,190,1) 41%, rgba(169,136,214,1) 94%);
+}
+
+table td,
+table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+tbody td {
+    font-weight: 500;
+    color: #999999;
+    text-align: center;
+}

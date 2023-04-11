@@ -1,0 +1,240 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 12, 2023, 9:57:15 PM
+    Author     : DELL
+*/
+.carousel-item {
+    height: 50vh;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer-cta {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.price {
+    color: #263238;
+    font-size: 24px;
+}
+
+.card-title {
+    color:#263238
+}
+
+.sale {
+    color: #E53935
+}
+
+.sale-badge {
+    background-color: #E53935
+}
+
+.badge {
+    color: white;
+}
+
+.mask {
+    position: absolute;
+    top: 20px;
+}
+
+#aq {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+#aq:hover {
+    background: rgb(255, 255, 255, 0.3);
+}
+
+.infor a {
+    color: rgb(77,123,179);
+    text-decoration: none;
+    
+}
+
+#last {
+    border: 3px solid white;
+    color: white;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+#last2 {
+    border: 3px solid white;
+    color: white;
+    font-weight: 500;
+}
+
+.carousel-inner {
+    height: 450px;
+}
+
+.carousel-caption {
+    top: 130px;
+}
+
+ul.category li a:hover {
+    color: bisque!important;
+}
+
+ul.category li a:focus {
+    color: bisque!important;
+}
+
+ul.category li a:active {
+    color: rgb(247, 234, 218)!important;
+}
+
+div.card img {
+    transition: transform 0.5s;
+}
+
+div.card img:hover {
+    transform: scale(1.125);
+}
+
+div.card {
+    overflow: hidden;
+}
+
+#prev {
+    width: 205px!important;
+}
+
+#next {
+    width: 205px!important;
+    ;
+}
+
+#navbarSupportedContent2 {
+    position: relative;
+}
+
+#search {
+    position: absolute;
+    left: 712px;
+}
+
+#search input {
+    width: 180px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.selected {
+    background: rgb(52, 97, 152);
+    border-radius: 5px;
+}
+
+div.item_image img{
+    height: 253.4px!important;
+}
+
+#addToCart:hover {
+    background-color: rgb(52, 97, 152)!important;
+}
+
+#submit {
+    position: absolute;
+    left:185px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+#submit:hover {
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.header {
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+}
+
+#logo2 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+}
+
+.signup-logo {
+    padding-top: 30px;
+}
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+#back {
+    position: relative;
+} 
+
+#back-child {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+#apply {
+    height: 48px;
+    margin-left: 10px;
+}
+
+#checkout:hover {
+    background: rgb(77,123,179)!important;
+}
+
+#apply:hover {
+    background: rgb(52,97,152)!important;
+    color: white!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+#sort {
+    color: rgb(36,37,38);
+}
+
+#sort select {
+    border-radius: 5px;
+    color: rgb(36,37,38);
+}
+
+#sort input {
+    border-radius: 5px;
+    border: 0;
+/*    background-color: rgb(77,123,179);
+    color: white;*/
+/*    margin-left: 3px;*/
+
+    border: 1px solid rgb(36,37,38);
+    background-color: whitesmoke;
+}
